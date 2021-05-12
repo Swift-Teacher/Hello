@@ -43,6 +43,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" red="1" green="0.2402487099" blue="0.098508991300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Call Brian"/>
+                                <connections>
+                                    <action selector="callBrian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcm-Uy-D1h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8j-tv-bCj">
                                 <rect key="frame" x="87" y="809" width="54" height="33"/>
@@ -111,7 +114,7 @@ Creator and producer of the Swift Teacher Podcast
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDg-my-LeM">
-                                <rect key="frame" x="145" y="60" width="124" height="30"/>
+                                <rect key="frame" x="135" y="88" width="145" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
@@ -125,7 +128,7 @@ Creator and producer of the Swift Teacher Podcast
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKl-5Q-0fc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1989.8550724637682" y="-148.66071428571428"/>
+            <point key="canvasLocation" x="1989.252336448598" y="-149.02807775377971"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ix9-lH-U71">
@@ -135,13 +138,6 @@ Creator and producer of the Swift Teacher Podcast
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kI8-TC-W24">
-                                <rect key="frame" x="147" y="60" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vv-AX-JFO">
                                 <rect key="frame" x="20" y="245" width="374" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -154,6 +150,13 @@ Jamf CCA: Jamf University</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kI8-TC-W24">
+                                <rect key="frame" x="147" y="88" width="120" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Zs-4D-0YZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -162,7 +165,7 @@ Jamf CCA: Jamf University</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nRs-PU-JKc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1989.8550724637682" y="655.58035714285711"/>
+            <point key="canvasLocation" x="1989.252336448598" y="655.07559395248381"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VSR-bL-UOn">
