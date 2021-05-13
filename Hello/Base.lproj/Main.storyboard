@@ -52,7 +52,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Skills"/>
                                 <connections>
-                                    <segue destination="qfn-YQ-E1b" kind="show" id="nlW-2E-vbY"/>
+                                    <action selector="skillsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Up-0b-lee"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxE-b0-gVo">
