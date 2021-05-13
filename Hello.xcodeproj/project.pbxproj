@@ -13,6 +13,8 @@
 		828E9CC7264715A8003E8D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828E9CC5264715A8003E8D8B /* Main.storyboard */; };
 		828E9CC9264715A9003E8D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828E9CC8264715A9003E8D8B /* Assets.xcassets */; };
 		828E9CCC264715A9003E8D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828E9CCA264715A9003E8D8B /* LaunchScreen.storyboard */; };
+		EB91FE66264D976B001E6C3C /* MyResume_project_example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EB91FE65264D976B001E6C3C /* MyResume_project_example.pdf */; };
+		EB91FE68264D9894001E6C3C /* ResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB91FE67264D9894001E6C3C /* ResumeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		828E9CCB264715A9003E8D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828E9CCD264715A9003E8D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		828E9CD3264715CC003E8D8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB91FE65264D976B001E6C3C /* MyResume_project_example.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MyResume_project_example.pdf; sourceTree = "<group>"; };
+		EB91FE67264D9894001E6C3C /* ResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				828E9CBF264715A8003E8D8B /* AppDelegate.swift */,
 				828E9CC1264715A8003E8D8B /* SceneDelegate.swift */,
 				828E9CC3264715A8003E8D8B /* ViewController.swift */,
+				EB91FE67264D9894001E6C3C /* ResumeViewController.swift */,
 				828E9CC5264715A8003E8D8B /* Main.storyboard */,
 				828E9CC8264715A9003E8D8B /* Assets.xcassets */,
+				EB91FE65264D976B001E6C3C /* MyResume_project_example.pdf */,
 				828E9CCA264715A9003E8D8B /* LaunchScreen.storyboard */,
 				828E9CCD264715A9003E8D8B /* Info.plist */,
 			);
@@ -128,6 +134,7 @@
 			files = (
 				828E9CCC264715A9003E8D8B /* LaunchScreen.storyboard in Resources */,
 				828E9CC9264715A9003E8D8B /* Assets.xcassets in Resources */,
+				EB91FE66264D976B001E6C3C /* MyResume_project_example.pdf in Resources */,
 				828E9CC7264715A8003E8D8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828E9CC4264715A8003E8D8B /* ViewController.swift in Sources */,
+				EB91FE68264D9894001E6C3C /* ResumeViewController.swift in Sources */,
 				828E9CC0264715A8003E8D8B /* AppDelegate.swift in Sources */,
 				828E9CC2264715A8003E8D8B /* SceneDelegate.swift in Sources */,
 			);
